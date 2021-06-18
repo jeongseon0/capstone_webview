@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="딥페이크 사용 여부를 검사해보는 앱입니다. \n\n[사용방법]\n\n미리 검사하고 싶으신 파일(동영상, 이미지)를 핸드폰에 저장해주세요\n\n파일 선택을 눌러 갤러리를 선택하면 저장되어있는 동영상과 이미지를 선택할 수 있습니다.\n\n선택 이후 아래에 업로드 버튼을 눌러 결과를 확인해주세요.\n\n동영상의 경우엔 True/False 두가지 결과를 확인하실 수 있습니다.\n\n이미지의 경우에는 결과가 확률로 나옵니다. 50%이하라면 가짜, 이상이라면 진짜이미지일 확률이 높습니다.\n\n파일 용량 제한 : 200mb \n지원되는 파일 확장자 : jpg, jpeg, png, \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tmp4, avi \n\n평균 소요 시간 : 20초 \n최대 소요 시간 : 3분 \n\n파일 용량, 인터넷 상황에 따라 검사 시간이 길어 질 수 있습니다."
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
